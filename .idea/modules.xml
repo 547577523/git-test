@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="ProjectModuleManager">
+    <modules>
+      <module fileurl="file://$PROJECT_DIR$/../Framework/aopSpring/aopSpring.iml" filepath="$PROJECT_DIR$/../Framework/aopSpring/aopSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Framework/helloMybatis/helloMybatis.iml" filepath="$PROJECT_DIR$/../Framework/helloMybatis/helloMybatis.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Framework/helloSpring/helloSpring.iml" filepath="$PROJECT_DIR$/../Framework/helloSpring/helloSpring.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Framework/helloSpringmvc/helloSpringMVC.iml" filepath="$PROJECT_DIR$/../Framework/helloSpringmvc/helloSpringMVC.iml" />
+      <module fileurl="file://$PROJECT_DIR$/java_web.iml" filepath="$PROJECT_DIR$/java_web.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../JavaSE/jdbc/jdbc.iml" filepath="$PROJECT_DIR$/../../JavaSE/jdbc/jdbc.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../level_query/level_query.iml" filepath="$PROJECT_DIR$/../level_query/level_query.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../../JavaSE/maven/maven.iml" filepath="$PROJECT_DIR$/../../JavaSE/maven/maven.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../myAjax/myAjax.iml" filepath="$PROJECT_DIR$/../myAjax/myAjax.iml" />
+      <module fileurl="file://$PROJECT_DIR$/../Framework/spring-mybatis/spring-mybatis.iml" filepath="$PROJECT_DIR$/../Framework/spring-mybatis/spring-mybatis.iml" />
+    </modules>
+  </component>
+</project>

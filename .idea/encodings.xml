@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="Encoding">
+    <file url="file://$PROJECT_DIR$/../../JavaSE/jdbc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../../JavaSE/maven/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Framework/aopSpring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Framework/aopSpring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Framework/helloMybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Framework/helloMybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Framework/helloSpring/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Framework/helloSpring/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Framework/helloSpringmvc/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Framework/helloSpringmvc/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Framework/spring-mybatis/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/../Framework/spring-mybatis/src/main/resources" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/src/main/resources" charset="UTF-8" />
+  </component>
+</project>

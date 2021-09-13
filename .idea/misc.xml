@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<project version="4">
+  <component name="FrameworkDetectionExcludesConfiguration">
+    <file type="web" url="file://$PROJECT_DIR$/../Framework/2" />
+    <file type="web" url="file://$PROJECT_DIR$/../Framework/helloMybatis" />
+    <file type="web" url="file://$PROJECT_DIR$/../Framework/helloSpringmvc" />
+    <file type="web" url="file://$PROJECT_DIR$/../helloSpringmvc" />
+    <file type="web" url="file://$PROJECT_DIR$" />
+  </component>
+  <component name="MavenProjectsManager">
+    <option name="originalFiles">
+      <list>
+        <option value="$PROJECT_DIR$/../../JavaSE/maven/pom.xml" />
+        <option value="$PROJECT_DIR$/../../JavaSE/jdbc/pom.xml" />
+        <option value="$PROJECT_DIR$/pom.xml" />
+        <option value="$PROJECT_DIR$/../Framework/HelloMyBatis/pom.xml" />
+        <option value="$PROJECT_DIR$/../Framework/helloSpring/pom.xml" />
+        <option value="$PROJECT_DIR$/../Framework/aopSpring/pom.xml" />
+        <option value="$PROJECT_DIR$/../Framework/spring-mybatis/pom.xml" />
+        <option value="$PROJECT_DIR$/../helloSpringMVC/pom.xml" />
+        <option value="$PROJECT_DIR$/../Framework/helloSpringmvc/pom.xml" />
+      </list>
+    </option>
+  </component>
+  <component name="ProjectRootManager" version="2" languageLevel="JDK_1_9" default="true" project-jdk-name="9" project-jdk-type="JavaSDK">
+    <output url="file://$PROJECT_DIR$/out" />
+  </component>
+</project>
