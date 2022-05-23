@@ -29,10 +29,13 @@
         <option value="Interface" />
         <option value="mybatisDao" />
         <option value="spring-beans.schema" />
-        <option value="Class" />
         <option value="Jsp File" />
+        <option value="Class" />
       </list>
     </option>
+  </component>
+  <component name="Git.Settings">
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="LogFilters">
     <option name="FILTER_ERRORS" value="false" />
@@ -41,17 +44,19 @@
     <option name="FILTER_DEBUG" value="true" />
     <option name="CUSTOM_FILTER" />
   </component>
+  <component name="MarkdownSettingsMigration">
+    <option name="stateVersion" value="1" />
+  </component>
   <component name="MavenImportPreferences">
     <option name="generalSettings">
       <MavenGeneralSettings>
         <option name="localRepository" value="D:\Program Files (x86)\maven\repository" />
-        <option name="mavenHome" value="$PROJECT_DIR$/../../../maven/apache-maven-3.8.2" />
-        <option name="userSettingsFile" value="D:\Program Files (x86)\maven\apache-maven-3.8.2\conf\settings.xml" />
+        <option name="mavenHome" value="D:/Program Files (x86)/maven/apache-maven-3.8.5" />
+        <option name="userSettingsFile" value="D:\Program Files (x86)\maven\apache-maven-3.8.5\conf\settings.xml" />
       </MavenGeneralSettings>
     </option>
   </component>
   <component name="MavenRunner">
-    <option name="jreName" value="9" />
     <option name="vmOptions" value="-DarchetypeCatalog=internal" />
   </component>
   <component name="ProjectId" id="1wWNwvyokvRb775wrNXYDnLMeeC" />
@@ -67,11 +72,11 @@
     <property name="aspect.path.notification.shown" value="true" />
     <property name="com.intellij.ide.scratch.LRUPopupBuilder$1/New Scratch File" value="XML&#10;Properties" />
     <property name="jdk.selected.JAVA_MODULE" value="9" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$/../Framework/helloSpringmvc" />
-    <property name="project.structure.last.edited" value="Modules" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="project.structure.last.edited" value="Project" />
     <property name="project.structure.proportion" value="0.15" />
     <property name="project.structure.side.proportion" value="0.29319373" />
-    <property name="settings.editor.selected.configurable" value="vcs.Git" />
+    <property name="settings.editor.selected.configurable" value="MavenSettings" />
   </component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
@@ -89,7 +94,20 @@
       <recent name="D:\Program Files (x86)\Java\untitled2\java_web\web\WEB-INF\lib" />
     </key>
   </component>
-  <component name="RunManager" selected="Tomcat Server.Tomcat_javaWeb">
+  <component name="RunManager" selected="Smart Tomcat.Unnamed">
+    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
+      <option name="arquillianRunConfiguration">
+        <value>
+          <option name="containerStateName" value="" />
+        </value>
+      </option>
+      <option name="TEST_OBJECT" value="CLASS" />
+      <properties />
+      <listeners />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="App" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="org.example.App" />
       <module name="spring-mybatis" />
@@ -103,18 +121,43 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration default="true" type="ArquillianTestNG" factoryName="" nameIsGenerated="true">
-      <option name="arquillianRunConfiguration">
-        <value>
-          <option name="containerStateName" value="" />
-        </value>
-      </option>
-      <option name="TEST_OBJECT" value="CLASS" />
-      <properties />
-      <listeners />
+    <configuration name="jdbc_test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="org.example.dao.jdbc_test" />
+      <module name="java_web" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="org.example.dao.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
+    </configuration>
+    <configuration name="java_web [package]" type="MavenRunConfiguration" factoryName="Maven" temporary="true">
+      <MavenSettings>
+        <option name="myGeneralSettings" />
+        <option name="myRunnerSettings" />
+        <option name="myRunnerParameters">
+          <MavenRunnerParameters>
+            <option name="profiles">
+              <set />
+            </option>
+            <option name="goals">
+              <list>
+                <option value="package" />
+              </list>
+            </option>
+            <option name="pomFileName" value="pom.xml" />
+            <option name="profilesMap">
+              <map />
+            </option>
+            <option name="resolveToWorkspace" value="false" />
+            <option name="workingDirPath" value="$PROJECT_DIR$" />
+          </MavenRunnerParameters>
+        </option>
+      </MavenSettings>
+      <method v="2" />
     </configuration>
     <configuration name="Tomcat_FirstSpringmvc" type="#com.intellij.j2ee.web.tomcat.TomcatRunConfigurationFactory" factoryName="Local" APPLICATION_SERVER_NAME="Tomcat 9.0.44" ALTERNATIVE_JRE_ENABLED="false">
       <option name="UPDATING_POLICY" value="restart-server" />
@@ -465,15 +508,36 @@
         </option>
       </method>
     </configuration>
+    <configuration name="Unnamed" type="com.poratu.idea.plugins.tomcat" factoryName="SMART_TOMCAT_FACTORY" nameIsGenerated="true">
+      <option name="adminPort" value="8005" />
+      <option name="contextPath" value="/java_web" />
+      <option name="docBase" value="$PROJECT_DIR$/src/main/webapp" />
+      <option name="envOptions" />
+      <option name="passParentEnvironmentVariables" value="true" />
+      <option name="port" value="8080" />
+      <option name="tomcatInfo">
+        <TomcatInfo>
+          <option name="name" value="Apache Tomcat/9.0.62" />
+          <option name="number" value="0" />
+          <option name="path" value="E:\apache-tomcat-9.0.62" />
+          <option name="version" value="9.0.62.0" />
+        </TomcatInfo>
+      </option>
+      <option name="vmOptions" value="" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <list>
       <item itemvalue="Application.App" />
-      <item itemvalue="Tomcat Server.Tomcat_FirstSpringmvc" />
-      <item itemvalue="Tomcat Server.Tomcat_ajax" />
-      <item itemvalue="Tomcat Server.Tomcat_level_query" />
-      <item itemvalue="Tomcat Server.Tomcat_javaWeb" />
+      <item itemvalue="Application.jdbc_test" />
+      <item itemvalue="Maven.java_web [package]" />
+      <item itemvalue="Smart Tomcat.Unnamed" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Maven.java_web [package]" />
+        <item itemvalue="Application.jdbc_test" />
         <item itemvalue="Application.App" />
       </list>
     </recent_temporary>

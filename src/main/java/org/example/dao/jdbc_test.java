@@ -1,35 +1,32 @@
 package org.example.dao;
 
-import org.example.entity.Users;
-
 import java.sql.*;
 
-public class JDBC {
+public class jdbc_test {
     static final String USER = "root";
     static final String PASSWORD = "messi";
 
-    public int fun(Users user) {
+    public static void main(String[] args) {
         Connection connection = null;
-        Statement stml = null;
+        Statement stml =null;
         ResultSet rs = null;
-        int count = 0;
+
         try {
             //1.注册驱动
             Class.forName("com.mysql.cj.jdbc.Driver");
             //2.获取连接
             connection = DriverManager.getConnection("jdbc:mysql://127.0.0.1:3306/people", USER, PASSWORD);
-            //connection = DriverManager.getConnection("jdbc:mysql://10.17.132.30:3306/people", USER, PASSWORD);
+            //3.获取预编译的数据库操作对象
             stml = connection.createStatement();
             String sql;
-            sql = "select * from login where login_id='"+user.getUserID()+"' and login_password='"+user.getPassWord()+"'";
+            sql = "select * from login";
             rs = stml.executeQuery(sql);
-            if(rs.next()){
-                count = 1;
+            //处理结果集
+            while(rs.next()){
+                int id = rs.getInt("login_id");
+                int password = rs.getInt("login_password");
+                System.out.println(id+","+password);
             }
-            if (1 == count) {
-                System.out.println("登录成功!");
-            }
-
         } catch (Exception e) {
             e.printStackTrace();
         } finally {
@@ -41,6 +38,6 @@ public class JDBC {
                 }
             }
         }
-        return count;
+
     }
 }
